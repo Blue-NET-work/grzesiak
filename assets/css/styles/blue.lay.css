@@ -1,3 +1,55 @@
+*:focus {
+    outline: 0;
+    border:none;
+}
+
+/*********************
+ TopBar 
+*********************/
+.topbar{
+ background:#676e77;
+ height:79px;
+}
+
+.topbar .logo-v1{
+ padding-top:22px;
+}
+
+.topbar .search{
+ padding-top:22px;
+}
+
+.topbar .search .form-control{
+ border:none;
+ background:#484d53;
+ color:#fff;
+ text-align:center;
+ font-size:12px;
+}
+
+.topbar .search .input-group-btn .btn-search{
+ border:1px solid #484d53;
+ background:#484d53;
+ margin-left:1px;
+ color:#fff;
+}
+
+.topbar .search .input-group-btn .btn-search:focus{
+ outline: 0;
+}
+
+.topbar .nav{
+ padding-top:28px;
+}
+
+.topbar .nav a{
+ color:#93989f;
+ padding:10px;
+}
+
+/*********************
+ GENERAL LAY 
+*********************/
 
 /*
 |--------------------------------------------------------------------------
