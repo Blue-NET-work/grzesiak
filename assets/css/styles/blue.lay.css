@@ -68,6 +68,74 @@
 }
 
 /*********************
+ Menu
+*********************/
+#menu{
+ position:absolute;
+ width:190px;
+ top:20%;
+ left:0px;
+ -moz-transition:left 0.2s ease-in-out;
+ -webkit-transition:left 0.2s ease-in-out;
+ -o-transition:left 0.2s ease-in-out;
+ transition:left 0.2s ease-in-out; 
+ z-index:99;
+}
+
+#menu.open{
+ left:0px;
+}
+
+#menu.closes{
+ left:-190px;
+}
+
+#menu #menuButton{
+ background:url(../../img/lay/menu.png) no-repeat;
+ position:absolute;
+ display:block;
+ width:48px;
+ height:142px;
+ left:100%;
+ top:37%;
+}
+
+#menu .menuContent{
+ border:1px solid #2a2c2e;
+ background:#151719;
+}
+
+#menu .menuContent ul li{
+ margin:0px 20px;
+ padding:4px 0px;
+}
+
+#menu .menuContent ul li a{
+ text-decoration:none;
+ font-size:14px;
+ color:#9fa7ba;
+}
+
+#menu .menuContent ul li a:hover,
+#menu .menuContent ul li a.active{
+ color:#e6e8ed;
+}
+
+#menu .menuContent ul.category{
+ background:#1e2124;
+ border:1px solid #2a2c2e;
+ border-left:none;
+ border-right:none;
+ margin-top:3px;
+}
+
+#menu .menuContent ul.category li{
+ border-top:1px solid #292c2f;
+ border-bottom:1px solid #191b1e;
+}
+
+
+/*********************
  footer
 *********************/
 .footer{
