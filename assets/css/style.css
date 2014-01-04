@@ -34,6 +34,22 @@ body{
 .newTraining{
 }
 
+.newTraining h2{
+ border-bottom:1px solid #bbbbbb;
+ padding-bottom:15px;
+}
+
+.newTraining h2.fontGotham,
+.categoryMain h2.fontGotham{
+  font-family: 'Gotham-Ligth';
+  font-size:30px;
+  color:#000000;
+}
+.newTraining h2.fontGotham span,
+.categoryMain h2.fontGotham span{
+  font-family: 'Gotham-Medium';
+  color:#666565;
+}
 
 .newTraining h3,
 .newTraining h3 a{
@@ -44,16 +60,6 @@ body{
 .categoryMain{
  background:url(../img/lay/lineLeft.jpg) no-repeat center top;
  padding-top:50px;
-}
-
-h2.fontGotham{
-  font-family: 'Gotham-Ligth';
-  font-size:30px;
-  color:#000000;
-}
-h2.fontGotham span{
-  font-family: 'Gotham-Medium';
-  color:#666565;
 }
 
 .categoryMain-list{
