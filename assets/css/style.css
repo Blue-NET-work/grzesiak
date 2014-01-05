@@ -57,6 +57,11 @@ body{
  color:#666565;
 }
 
+.newTraining p{
+ font-size:14px;
+ color:#808080;
+}
+
 .categoryMain{
  background:url(../img/lay/lineLeft.jpg) no-repeat center top;
  padding-top:50px;
@@ -121,4 +126,67 @@ body{
 
 .categoryMain-img em span{
  margin-top:30%;
+}
+
+/* 
+	VideoItem
+*/
+
+.videoItem{
+ background:#e4e7ee url(../img/lay/videoItemBottom.jpg) no-repeat center bottom;
+ padding-bottom:80px;
+}
+
+.videoItem,
+.videoItem2{
+ color:#3e3e3e;
+ font-size:14px;
+}
+
+.videoItem h2,
+.videoItem2 h2{
+ font-size:41.5px;
+ color:#3e3e3e;
+ margin-bottom:30px;
+}
+.videoItem .player,
+.videoItem2 .player{
+ background:url(../img/lay/playerShadow.png) center bottom no-repeat;
+ padding-bottom:35px;
+ margin-bottom:35px;
+}
+
+.videoBg{
+ background:#e4e7ee url(../img/lay/videoBottom.jpg) no-repeat center bottom;
+ padding-top:30px;
+ padding-bottom:80px;
+}
+
+/* 
+	MasterSales
+*/
+.masterSales{
+ background:url(../img/lay/masterTop.jpg) no-repeat center top,#4d816a url(../img/lay/masterBottom.jpg) bottom center no-repeat;
+ padding-top:90px;
+ padding-bottom:90px;
+ color:#fff;
+ font-size:14px;
+}
+
+.masterSalesBottomWhite{
+ background:url(../img/lay/masterTop.jpg) no-repeat center top,#4d816a url(../img/lay/masterBottomWhite.jpg) no-repeat bottom center;
+}
+
+/* 
+	moreItem
+*/
+
+.moreItem,
+.moreItem a{
+ color:#767676;
+ font-size:12px;
+}
+
+.moreItem .moreItem-text{
+ display:block;
 }
