@@ -231,7 +231,10 @@ hr.videoHR{
  z-index:3;
 }
 
-
+.bgSlider{
+ background:url(../img/lay/bgBlueSlider.png) center bottom no-repeat;
+ padding-bottom:70px;
+}
 
 /*********************
  Green Site
