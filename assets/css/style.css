@@ -27,6 +27,32 @@ body{
  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fdfdfd',GradientType=0 ); /* IE6-8 */
 }
 
+h2.fontGotham,
+h2.fontGotham a{
+  font-family: 'Gotham-Ligth';
+  font-size:30px;
+  color:#000000;
+}
+h2.fontGotham span,
+h2.fontGotham span a{
+  font-family: 'Gotham-Medium';
+  color:#666565;
+}
+
+h2.fontGotham.border-bottom{
+ border-bottom:1px solid #bbbbbb;
+ padding-bottom:20px;
+}
+
+.categoryTag{
+ color:#3e3e3e;
+ font-size:18px;
+}
+
+span.videoTag{
+  font-family: 'Gotham-Medium';
+}
+
 /* 
 	Category Main  and newTraining
 */
@@ -37,18 +63,6 @@ body{
 .newTraining h2{
  border-bottom:1px solid #bbbbbb;
  padding-bottom:15px;
-}
-
-.newTraining h2.fontGotham,
-.categoryMain h2.fontGotham{
-  font-family: 'Gotham-Ligth';
-  font-size:30px;
-  color:#000000;
-}
-.newTraining h2.fontGotham span,
-.categoryMain h2.fontGotham span{
-  font-family: 'Gotham-Medium';
-  color:#666565;
 }
 
 .newTraining h3,
@@ -162,6 +176,11 @@ body{
  padding-bottom:80px;
 }
 
+hr.videoHR{
+ border-color:#626366;
+ margin-top:25px;
+}
+
 /* 
 	MasterSales
 */
@@ -189,4 +208,25 @@ body{
 
 .moreItem .moreItem-text{
  display:block;
+}
+
+/* 
+	pack
+*/
+
+.pack{
+ color:#666565;
+ font-size:14px;
+}
+
+.pack h3{
+ font-size:24px;
+ color:#666565;
+}
+
+.packBg{
+ background:#e4e7ee;
+ padding:25px 0px 10px;
+ position:relative;
+ z-index:3;
 }

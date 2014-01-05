@@ -191,7 +191,6 @@ Fix grid offset used for reponsive layout handling(refer app.js=>handleResponsiv
 .width-960{ width: 960px; } 
 
 
-
 .btn-black {
   color: #ffffff;
   font-size:12px;
@@ -224,5 +223,23 @@ Fix grid offset used for reponsive layout handling(refer app.js=>handleResponsiv
   background: -ms-linear-gradient(top,  #2a2e32 0%,#010101 100%); /* IE10+ */
   background: linear-gradient(to bottom,  #2a2e32 0%,#010101 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a2e32', endColorstr='#010101',GradientType=0 ); /* IE6-8 */
+  border-radius:0px;
+}
+
+
+.btn-red{
+  color: #ffffff;
+  font-size:12px;
+  background: #e50202;
+  border-radius:0px;
+}
+
+.btn-red:hover,
+.btn-red:focus,
+.btn-red:active,
+.btn-red.active,
+.open .dropdown-toggle.btn-red {
+  color: #fff;
+  background: #ce0606;
   border-radius:0px;
 }
