@@ -230,3 +230,49 @@ hr.videoHR{
  position:relative;
  z-index:3;
 }
+
+
+
+/*********************
+ Green Site
+*********************/
+
+.green .topbar{
+ background:url(../img/lay/bgTopGreen.jpg) no-repeat center top;
+}
+
+.green .topbar .search .form-control{
+ border:1px solid #4a5f57;
+ border-right:none;
+ background:#253b33;
+ color:#fff;
+ text-align:center;
+ font-size:12px;
+}
+
+.green .topbar .search .input-group-btn .btn-search{
+ border:1px solid #4a5f57;
+ background:#253b33;
+ margin-left:1px;
+ color:#fff;
+}
+
+.green .content-v1{
+ background-image:url(../img/lay/bgGreenSlider.png);
+ background-position:top center;
+ background-repeat:no-repeat;
+}
+
+.green h2.title{
+ font-size:41.5px;
+ color:#fff;
+ padding-bottom:15px;
+}
+
+.green .categoryTag{
+ color:#fff;
+}
+
+.green .videoHR{
+ border-color:#386654;
+}
