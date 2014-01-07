@@ -44,7 +44,8 @@ h2.fontGotham.border-bottom{
  padding-bottom:20px;
 }
 
-.categoryTag{
+.categoryTag,
+.categoryTag a{
  color:#3e3e3e;
  font-size:18px;
 }
@@ -152,13 +153,17 @@ span.videoTag{
 }
 
 .videoItem,
-.videoItem2{
+.videoItem2,
+.videoItem a,
+.videoItem2 a{
  color:#3e3e3e;
  font-size:14px;
 }
 
 .videoItem h2,
-.videoItem2 h2{
+.videoItem2 h2
+.videoItem h2 a,
+.videoItem2 h2 a,{
  font-size:41.5px;
  color:#3e3e3e;
  margin-bottom:30px;
@@ -240,26 +245,6 @@ hr.videoHR{
  Green Site
 *********************/
 
-.green .topbar{
- background:url(../img/lay/bgTopGreen.jpg) no-repeat center top;
-}
-
-.green .topbar .search .form-control{
- border:1px solid #4a5f57;
- border-right:none;
- background:#253b33;
- color:#fff;
- text-align:center;
- font-size:12px;
-}
-
-.green .topbar .search .input-group-btn .btn-search{
- border:1px solid #4a5f57;
- background:#253b33;
- margin-left:1px;
- color:#fff;
-}
-
 .green .content-v1{
  background-image:url(../img/lay/bgGreenSlider.png);
  background-position:top center;
@@ -272,10 +257,24 @@ hr.videoHR{
  padding-bottom:15px;
 }
 
-.green .categoryTag{
+.green .categoryTag,
+.green .categoryTag a{
  color:#fff;
 }
 
 .green .videoHR{
  border-color:#386654;
+}
+
+
+/*********************
+ Green Site
+*********************/
+.bgTopBar{
+ background:#e4e7ee;
+ height:79px;
+}
+.bgTopBar1{
+ background:url(../img/lay/bgBlueSlider.png) top center no-repeat;
+ height:79px;
 }
